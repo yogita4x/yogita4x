@@ -1,21 +1,44 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>View yogita4x.pdf</title>
+<title>View yogita4x.pdf (Print-Like)</title>
+<style>
+  body {
+    font-family: sans-serif;
+    margin: 20px;
+  }
+  .embed-container {
+    width: 100%;
+    max-width: 900px; /* Adjust as needed */
+    margin: 0 auto; /* Center the viewer */
+    border: 1px solid #ccc; /* Optional border */
+  }
+  embed {
+    display: block; /* Prevent extra space below the embed */
+    width: 100%;
+    height: 700px; /* Adjust as needed */
+  }
+  .instructions {
+    margin-top: 15px;
+    font-size: 0.9em;
+    color: #555;
+  }
+</style>
 </head>
 <body>
 
 <h1>Viewing yogita4x.pdf</h1>
 
-<p>This page will attempt to display the contents of the 'yogita4x.pdf' file below.</p>
+<p>This page displays the 'yogita4x.pdf' file in a viewer below. We have aimed for a clean, print-like presentation.</p>
 
-<embed src="yogita4x.pdf" width="100%" height="600px" type="application/pdf">
+<div class="embed-container">
+  <embed src="yogita4x.pdf" type="application/pdf">
+</div>
 
-<p>If the PDF is not displayed above, your browser might not have a built-in PDF viewer or it might be disabled. You can try the following:</p>
-<ul>
-    <li>Ensure your browser has a built-in PDF viewer enabled.</li>
-    <li>Download the 'yogita4x.pdf' file and open it with a dedicated PDF reader application (like Adobe Acrobat Reader, etc.).</li>
-</ul>
+<p class="instructions">
+  If the PDF is not displayed, ensure your browser has a built-in PDF viewer enabled.
+  You can also download the file and open it with a dedicated PDF reader for more viewing options.
+</p>
 
 </body>
 </html>
